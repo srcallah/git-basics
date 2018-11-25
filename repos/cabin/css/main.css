@@ -128,19 +128,27 @@ section{
 
 iframe{
   display: block;
-  margin: 2em auto;
+  width: 80%;
+  height: 20em;
+  margin: 3em auto;
+
 }
 
 .col30{
   display: inline-block;
   width: 30%;
-
 }
 
 .col14{
   float: left;
   width: 20%;
   text-align: center;
+}
+
+.col50{
+  float: left;
+  width: 48%;
+
 }
 
 .icon{
@@ -252,6 +260,12 @@ li{
   max-width: 400px;
 }
 
+.cabin-card a{
+  margin-bottom: 1em;
+  padding-bottom: 1em;
+
+}
+
 .price{
   position: absolute;
   top: 1.75em;
@@ -356,6 +370,26 @@ blockquote{
 
 .secondary-photo{
   padding: 2em;
+}
+.contact-container{
+  position: relative;
+  margin: 3em auto;
+  overflow: auto;
+}
+.contact{
+  overflow:auto;
+  margin: 8em 2em;
+  padding: 2em;
+  border-left: 1px solid #000;
+  font-family: monospace;
+
+}
+
+
+.contact li{
+  text-align: left;
+  padding: 0;
+  line-height: 1.25;
 }
 
 footer{
