@@ -117,9 +117,23 @@ img{
   margin: 0 auto;
 }
 
+h1,h2,h3,h4{
+  text-align: center;
+}
+
+section{
+  display: block;
+  margin: 0 auto;
+}
+
+iframe{
+  display: block;
+  margin: 2em auto;
+}
+
 .col30{
-  float: left;
-  width:30%;
+  display: inline-block;
+  width: 30%;
 
 }
 
@@ -129,12 +143,34 @@ img{
   text-align: center;
 }
 
+.icon{
+  display: inline-block;
+  padding: 2em;
+  margin: 2em;
+  width: 16em;
+  font-family: monospace;
+}
+
+.icon  img{
+  width: 4em;
+}
+
 .main-nav{
   display: none;
 }
 
 section{
   clear: both;
+}
+
+.section-line{
+  display: block;
+  margin: 2em auto;
+  content: "";
+  max-width: 40em;
+  height: .08em;
+  background-color: #000;
+
 }
 
 .logo-header{
@@ -150,6 +186,7 @@ ul{
 li{
   padding: 2em 0;
 }
+
 
 
 .top-nav a{
@@ -183,12 +220,13 @@ li{
 .gallery{
   overflow: auto;
   display: block;
-  margin: 0 auto;
+  position: relative;
+  margin: 2em;
+  padding: 2em;
   text-align: center;
 }
 
 .cabin-card{
-  display: block;
   position: relative;
   overflow: auto;
   margin: 1em;
@@ -225,7 +263,7 @@ li{
 }
 
 
-/*----------*side-nav begin-------------------*/
+/*----------*newletter signup begin-------------------*/
 
 .newsletter{
   display: none;
@@ -266,24 +304,25 @@ li{
   display: block;
   position: absolute;
   bottom: 15%;
-  left: 25%;
+  left: 30%;
   border: 1px solid #000;
-  width: 40%;
-  min-height: 20em;
+  width: 45em;
+  min-height: 25em;
   background-color: #fff;
 }
 
 .signup-section{
   display: block;
   position: absolute;
-  left: 8em;
-  bottom: 4em;
+  left: 2em;
+  bottom: 2em;
   margin: 0 auto;
 }
 input[type=text] {
-    padding: 12px 20px;
-    margin: 8px 0;
+    padding: 1em 1.5em;
+    margin: .5em 0;
     box-sizing: border-box;
+    text-align: center;
 }
 
 input[type=submit] {
@@ -296,11 +335,12 @@ input[type=submit] {
   border: none;
 }
 
+/*End newsletter signup */
 
 blockquote{
   border-top: 1px solid #000;
   border-bottom: 1px solid #000;
-  margin: 5em auto;
+  margin: 1em auto;
   padding: 1em 3em;
   max-width: 40em;
   line-height: 2;
@@ -315,9 +355,22 @@ blockquote{
 
 }
 
+.secondary-photo{
+  padding: 2em;
+}
 
+footer{
+  background-color: #000;
+  color: white;
+  width: 100%;
+  padding: 4em;
+  text-align: center;
+  font-size: .75em;
+}
 
-
+footer a{
+  color: #fff;
+}
 
 
 /* ==========================================================================
