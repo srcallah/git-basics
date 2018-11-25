@@ -322,7 +322,6 @@ input[type=text] {
     padding: 1em 1.5em;
     margin: .5em 0;
     box-sizing: border-box;
-    text-align: center;
 }
 
 input[type=submit] {
