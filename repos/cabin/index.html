@@ -14,23 +14,37 @@
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 </head>
 
 <body>
+
   <!--[if lte IE 9]>
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
   <![endif]-->
 
   <!-- Add your site or application content here -->
-  <header>
-    <a href="#!"><img src="#"></a>
+  <div class="newsletter">
+    <i class="close-icon">&times;</i>
+    <p class="active newsletter-signup">
+      Sign up for our newsletter to learn about special offers, curated vacation planning and our guides to magnificant sight-seeing!
+    <p>
+    <p class="signup-section">
+    E-mail: <input type="text"></input> <input type="submit">
+    </p>
+  </div>
+
+  <header class="page-header">
+    <div class="logo-head-container">
+      <a href="#!"><img src="img/logo-head.png" class="logo-header"></a>
+    </div>
     <nav class="top-nav">
       <ul>
-        <li><a href="#">Cabins</a></li>
-        <li><a href="#">Rates</a></li>
-        <li><a href="#">Reservations</a></li>
-        <li><a href="#">Activities & Experiences</a></li>
-        <li><a href="#">About</a></li>
+        <li class="col14"><a href="#">Cabins</a></li>
+        <li class="col14"><a href="#">Reservations</a></li>
+        <li class="col14"><a href="#">Activities & Experiences</a></li>
+        <li class="col14"><a href="#">About</a></li>
+        <li class="col14"><a href="#" class="nav-icon">Newsletter</a></li>
       </ul>
     </nav>
   </header>
@@ -39,7 +53,7 @@
     <img src="img/hero.jpg" alt="Cabin on lake">
   </div>
 
-  <section>
+  <section class="copy">
     <h1>5-STAR All-Inclusive Lake Front Minnesota Luxury Resorts and Cabins for ALL Occasions Year Round</h1>
     <p>
       Surrounded by awe inspiring panoramic views of deep greens and blue landscapes, combined with unspoiled natural beauty of birch, spruce, maples, vibrant sunsets and calm summer breezes, this beautiful lake front resort, originally established in 1932, is proud to be offering a truly unique hi-end boutique resort experience, like no other in Minnesota. This BRAND NEW 5-STAR ALL-INCLUSIVE resort in Minnesota now offers luxury vacation homes and cabin accommodations overlooking Blackduck Lake and the “lazy” knee deep Blackduck River, just minutes north of Bemidji, 3 ½ hours north of Minneapolis, 3 hours east of Fargo and 1 hour south of Canada.
@@ -53,12 +67,7 @@
       The resort has more than 30 ALL-INCLUSIVE on resort experiences and activities for guests to enjoy. Guests can take advantage of all forms of lake recreation, such as, fishing kayaking, canoeing, boating and swimming in the summer to ice fishing, snowmobiling, snow shoeing and cross-country skiing in the winter. Even though WBR has ample amounts of on resort entertainment, rest assured, the area also features countless access to over 90 local attraction and activities, such as golfing, hiking, biking, skiing, snow tubing, site seeing, shopping and much more, if you so choose to explore off the resort. White Birch Resort is supported by and as close as, five miles to surrounding tourist communities of Blackduck, Bemidji, Upper Red Lake, Park Rapids, Grand Rapids and Walker. Sometimes guests even choose White Birch Resort as their home base because accommodations and amenities are so great!
     </p>
   </section>
-  <section>
-    <blockquote>
-      “Lake resorts in MN are always what families look for when going on vacation!  Guests are guaranteed to receive the most unmatched complete All-Inclusive vacation package for any small privately owned and operated Minnesota luxury resort, all while receiving incredible rates!”
-    </blockquote>
-    <p class="quote-author">— Guest Comment</p>
-  </section>
+
   <section class="gallery">
     <article class="col30 cabin-card">
       <div class="photo-card">
@@ -105,6 +114,7 @@
         <p class="price">$380/night</p>
       </div>
     </article>
+
     <article class="col30 cabin-card">
       <div class="photo-card">
         <img src="img/cabin7.jpg" class="price-container" alt="Nordmann">
@@ -112,6 +122,7 @@
         <p class="price">$490/night</p>
       </div>
     </article>
+
     <article class="col30 cabin-card">
       <div class="photo-card">
         <img src="img/cabin8.jpg" class="price-container" alt="Silver Cabin">
@@ -119,6 +130,7 @@
         <p class="price">$500/night</p>
       </div>
     </article>
+
     <article class="col30 cabin-card">
       <div class="photo-card">
         <img src="img/cabin9.jpg" class="price-container" alt="Spanish Cabin">
@@ -126,9 +138,15 @@
         <p class="price">$310/night</p>
       </div>
     </article>
-
   </section>
 
+  <section>
+    <blockquote>
+      “Lake resorts in MN are always what families look for when going on vacation! Guests are guaranteed to receive the most unmatched complete All-Inclusive vacation package for any small privately owned and operated Minnesota luxury resort, all while receiving incredible rates!”
+      <div class="quote-author">— Guest Comment</div>
+    </blockquote>
+
+  </section>
 
   <script src="js/vendor/modernizr-3.6.0.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
